@@ -91,7 +91,7 @@ char matriz3 [60][60];
 					   "\n\t\t|--------------------------------------------------------------------------------------------------------------------------|"
                          
                         "\n\n\t\t\t\t\t    ------------------------------------------------------------"
-	                    "\n\n\t\t\t\t\t   /|AJUDE TRIGOTO EM SUA AVENTURA PELOS LABIRINTOS DE DUNGEON!|"
+	                    "  \n\t\t\t\t\t   /|AJUDE TRIGOTO EM SUA AVENTURA PELOS LABIRINTOS DE DUNGEON!|"
 						"\n\t\t\t\t\t  /_|----------------------------------------------------------|";
 	
 	int h;
@@ -100,8 +100,8 @@ char matriz3 [60][60];
 		        fflush(stdout);
 		        usleep(20000);
 		    }
-		    printf("\n\n\n\t\t\t\t\t\t|A HISTORIA CONTEM 20 SEGUNDO|");
-			Sleep(20000);
+		    printf("\n\n\n\t\t\t\t\t\t\t\t|A HISTORIA CONTEM 10 SEGUNDO|");
+			Sleep(10000);
 } 
 
 
@@ -219,22 +219,22 @@ void movimentacao1()
 				{
 						printf("\n\n\n");					
 					    Sleep(20);
-					   printf("#######  ####### #######  ####### ######  ####### ###     ##  #######\n");
+					   printf("\t\t\t\t\t\t#######  ####### #######  ####### ######  ####### ###     ##  #######\n");
 					    Sleep(20);
 						system("color 05");
-					    printf("##    ## ##   ## ##    ## ##   ## ##   ## ##      ## #    ##  ##\n");
+					    printf("\t\t\t\t\t\t##    ## ##   ## ##    ## ##   ## ##   ## ##      ## #    ##  ##\n");
 					    Sleep(20);
 						system("color 04");
-					    printf("##    ## ##   ## ##    ## ##   ## ######  ##      ##  #   ##  #######\n");
+					    printf("\t\t\t\t\t\t##    ## ##   ## ##    ## ##   ## ######  ##      ##  #   ##  #######\n");
 					    Sleep(20);
 						system("color 07");
-					    printf("######   ####### #######  ####### #    ## #####   ##   #  ##       ##\n");
+					    printf("\t\t\t\t\t\t######   ####### #######  ####### #    ## #####   ##   #  ##       ##\n");
 					    Sleep(20);
 						system("color 08");
-					    printf("##       ##   ## ## ##    ##   ## ##   ## ##      ##    # ##       ##\n");
+					    printf("\t\t\t\t\t\t##       ##   ## ## ##    ##   ## ##   ## ##      ##    # ##       ##\n");
 					    Sleep(20);
 						system("color 09");
-					   printf("##       ##   ## ##  ##   ##   ## ######  ####### ##     ###  #######\n");
+					   printf("\t\t\t\t\t\t##       ##   ## ##  ##   ##   ## ######  ####### ##     ###  #######\n");
 					    Sleep(20);
 						system("color 06");
 						Sleep(900);
@@ -431,22 +431,22 @@ void mapa2(char matriz2[30][30],int x2, int y2, char chave2, char porta2, char b
 								{
 									printf("\n\n");
 								system("color 05");
-								printf("########  ######## ###        ### #######     ######## ##          ## ####### ######\n");
+								printf("\t\t\t\t\t\t########  ######## ###        ### #######     ######## ##          ## ####### ######\n");
 								Sleep(300);
 								system("color 07");
-								printf("##        ##    ## ## #      # ## ##          ##    ##  ##        ##  ##      ##    ##\n");
+								printf("\t\t\t\t\t\t##        ##    ## ## #      # ## ##          ##    ##  ##        ##  ##      ##    ##\n");
 								Sleep(300);
 								system("color 08");
-								printf("##   ###  ######## ##   #  #   ## #####       ##    ##    ##    ##    #####   ######\n");
+								printf("\t\t\t\t\t\t##   ###  ######## ##   #  #   ## #####       ##    ##    ##    ##    #####   ######\n");
 								Sleep(300);
 								system("color 09");
-								printf("##    ##  ##    ## ##    ##    ## ##          ##    ##      ####      ##      ##  ##\n");
+								printf("\t\t\t\t\t\t##    ##  ##    ## ##    ##    ## ##          ##    ##      ####      ##      ##  ##\n");
 								Sleep(300);
-								printf("########  ##    ## ##          ## #######     ########       ##       ####### ##   ##\n");
+								printf("\t\t\t\t\t\t########  ##    ## ##          ## #######     ########       ##       ####### ##   ##\n");
 								Sleep(300);
 								system("color 03");
 								Sleep(900);
-								printf("\nDigite 1 e pressione enter para continuar...");
+								printf("\n\t\t\t\t\t\tDigite 1 e pressione enter para continuar...");
 								scanf("%d", &lixo);
 								fim2=1;
 								break;
@@ -457,7 +457,7 @@ void mapa2(char matriz2[30][30],int x2, int y2, char chave2, char porta2, char b
 							//verificar o dano do espinho							
 							if (matriz2[y2][x2] == espinho2) 
 							{
-								printf("Voce sofreu dano!\n");
+								printf("\t\t\t\t\t\tVoce sofreu dano!\n");
 								Sleep(900);
 								lifes--;
 								x2=15;
@@ -471,22 +471,22 @@ void mapa2(char matriz2[30][30],int x2, int y2, char chave2, char porta2, char b
 									{
 									printf("\n\n");
 								system("color 05");
-								printf("########  ######## ###        ### #######     ######## ##          ## ####### ######\n");
+								printf("\t\t\t\t\t\t########  ######## ###        ### #######     ######## ##          ## ####### ######\n");
 								Sleep(300);
 								system("color 07");
-								printf("##        ##    ## ## #      # ## ##          ##    ##  ##        ##  ##      ##    ##\n");
+								printf("\t\t\t\t\t\t##        ##    ## ## #      # ## ##          ##    ##  ##        ##  ##      ##    ##\n");
 								Sleep(300);
 								system("color 08");
-								printf("##   ###  ######## ##   #  #   ## #####       ##    ##    ##    ##    #####   ######\n");
+								printf("\t\t\t\t\t\t##   ###  ######## ##   #  #   ## #####       ##    ##    ##    ##    #####   ######\n");
 								Sleep(300);
 								system("color 09");
-								printf("##    ##  ##    ## ##    ##    ## ##          ##    ##      ####      ##      ##  ##\n");
+								printf("\t\t\t\t\t\t##    ##  ##    ## ##    ##    ## ##          ##    ##      ####      ##      ##  ##\n");
 								Sleep(300);
-								printf("########  ##    ## ##          ## #######     ########       ##       ####### ##   ##\n");
+								printf("\t\t\t\t\t\t########  ##    ## ##          ## #######     ########       ##       ####### ##   ##\n");
 								Sleep(300);
 								system("color 03");
 								Sleep(900);
-								printf("\nDigite 1 e pressione enter para continuar...");
+								printf("\n\t\t\t\t\t\tDigite 1 e pressione enter para continuar...");
 								scanf("%d", &lixo);
 								fim2=1;
 								break;
@@ -518,22 +518,22 @@ void mapa2(char matriz2[30][30],int x2, int y2, char chave2, char porta2, char b
 							{
 									printf("\n\n");
 								system("color 05");
-								printf("########  ######## ###        ### #######     ######## ##          ## ####### ######\n");
+								printf("\t\t\t\t\t\t########  ######## ###        ### #######     ######## ##          ## ####### ######\n");
 								Sleep(300);
 								system("color 07");
-								printf("##        ##    ## ## #      # ## ##          ##    ##  ##        ##  ##      ##    ##\n");
+								printf("\t\t\t\t\t\t##        ##    ## ## #      # ## ##          ##    ##  ##        ##  ##      ##    ##\n");
 								Sleep(300);
 								system("color 08");
-								printf("##   ###  ######## ##   #  #   ## #####       ##    ##    ##    ##    #####   ######\n");
+								printf("\t\t\t\t\t\t##   ###  ######## ##   #  #   ## #####       ##    ##    ##    ##    #####   ######\n");
 								Sleep(300);
 								system("color 09");
-								printf("##    ##  ##    ## ##    ##    ## ##          ##    ##      ####      ##      ##  ##\n");
+								printf("\t\t\t\t\t\t##    ##  ##    ## ##    ##    ## ##          ##    ##      ####      ##      ##  ##\n");
 								Sleep(300);
-								printf("########  ##    ## ##          ## #######     ########       ##       ####### ##   ##\n");
+								printf("\t\t\t\t\t\t########  ##    ## ##          ## #######     ########       ##       ####### ##   ##\n");
 								Sleep(300);
 								system("color 03");
 								Sleep(900);
-								printf("\nDigite 1 e pressione enter para continuar...");
+								printf("\n\t\t\t\t\t\tDigite 1 e pressione enter para continuar...");
 								scanf("%d", &lixo);
 								fim2=1;
 								break;
@@ -544,7 +544,7 @@ void mapa2(char matriz2[30][30],int x2, int y2, char chave2, char porta2, char b
 					//verificar o dano do espinho
 						if (matriz2[y2][x2] == espinho2) 
 						{
-							printf("Voce sofreu dano!\n");
+							printf("\t\t\t\t\t\tVoce sofreu dano!\n");
 							Sleep(900);
 							lifes--;
 							x2=15;
@@ -558,22 +558,22 @@ void mapa2(char matriz2[30][30],int x2, int y2, char chave2, char porta2, char b
 								{
 									printf("\n\n");
 								system("color 05");
-								printf("########  ######## ###        ### #######     ######## ##          ## ####### ######\n");
+								printf("\t\t\t\t\t\t########  ######## ###        ### #######     ######## ##          ## ####### ######\n");
 								Sleep(300);
 								system("color 07");
-								printf("##        ##    ## ## #      # ## ##          ##    ##  ##        ##  ##      ##    ##\n");
+								printf("\t\t\t\t\t\t##        ##    ## ## #      # ## ##          ##    ##  ##        ##  ##      ##    ##\n");
 								Sleep(300);
 								system("color 08");
-								printf("##   ###  ######## ##   #  #   ## #####       ##    ##    ##    ##    #####   ######\n");
+								printf("\t\t\t\t\t\t##   ###  ######## ##   #  #   ## #####       ##    ##    ##    ##    #####   ######\n");
 								Sleep(300);
 								system("color 09");
-								printf("##    ##  ##    ## ##    ##    ## ##          ##    ##      ####      ##      ##  ##\n");
+								printf("\t\t\t\t\t\t##    ##  ##    ## ##    ##    ## ##          ##    ##      ####      ##      ##  ##\n");
 								Sleep(300);
-								printf("########  ##    ## ##          ## #######     ########       ##       ####### ##   ##\n");
+								printf("\t\t\t\t\t\t########  ##    ## ##          ## #######     ########       ##       ####### ##   ##\n");
 								Sleep(300);
 								system("color 03");
 								Sleep(900);
-								printf("\nDigite 1 e pressione enter para continuar...");
+								printf("\n\t\t\t\t\t\tDigite 1 e pressione enter para continuar...");
 								scanf("%d", &lixo);
 								fim2=1;
 								break;
@@ -604,22 +604,22 @@ void mapa2(char matriz2[30][30],int x2, int y2, char chave2, char porta2, char b
 							{
 									printf("\n\n");
 								system("color 05");
-								printf("########  ######## ###        ### #######     ######## ##          ## ####### ######\n");
+								printf("\t\t\t\t\t\t########  ######## ###        ### #######     ######## ##          ## ####### ######\n");
 								Sleep(300);
 								system("color 07");
-								printf("##        ##    ## ## #      # ## ##          ##    ##  ##        ##  ##      ##    ##\n");
+								printf("\t\t\t\t\t\t##        ##    ## ## #      # ## ##          ##    ##  ##        ##  ##      ##    ##\n");
 								Sleep(300);
 								system("color 08");
-								printf("##   ###  ######## ##   #  #   ## #####       ##    ##    ##    ##    #####   ######\n");
+								printf("\t\t\t\t\t\t##   ###  ######## ##   #  #   ## #####       ##    ##    ##    ##    #####   ######\n");
 								Sleep(300);
 								system("color 09");
-								printf("##    ##  ##    ## ##    ##    ## ##          ##    ##      ####      ##      ##  ##\n");
+								printf("\t\t\t\t\t\t##    ##  ##    ## ##    ##    ## ##          ##    ##      ####      ##      ##  ##\n");
 								Sleep(300);
-								printf("########  ##    ## ##          ## #######     ########       ##       ####### ##   ##\n");
+								printf("\t\t\t\t\t\t########  ##    ## ##          ## #######     ########       ##       ####### ##   ##\n");
 								Sleep(300);
 								system("color 03");
 								Sleep(900);
-								printf("\nDigite 1 e pressione enter para continuar...");
+								printf("\n\t\t\t\t\t\tDigite 1 e pressione enter para continuar...");
 								scanf("%d", &lixo);
 								fim2=1;
 								break;
@@ -630,7 +630,7 @@ void mapa2(char matriz2[30][30],int x2, int y2, char chave2, char porta2, char b
 					//verificar o dano do espinho							
 						if (matriz2[y2][x2] == espinho2) 
 						{
-							printf("Voce sofreu dano!\n");
+							printf("\t\t\t\t\t\tVoce sofreu dano!\n");
 							Sleep(900);
 							lifes--;
 							x2=15;
@@ -644,22 +644,22 @@ void mapa2(char matriz2[30][30],int x2, int y2, char chave2, char porta2, char b
 								{
 									printf("\n\n");
 								system("color 05");
-								printf("########  ######## ###        ### #######     ######## ##          ## ####### ######\n");
+								printf("\t\t\t\t\t\t########  ######## ###        ### #######     ######## ##          ## ####### ######\n");
 								Sleep(300);
 								system("color 07");
-								printf("##        ##    ## ## #      # ## ##          ##    ##  ##        ##  ##      ##    ##\n");
+								printf("\t\t\t\t\t\t##        ##    ## ## #      # ## ##          ##    ##  ##        ##  ##      ##    ##\n");
 								Sleep(300);
 								system("color 08");
-								printf("##   ###  ######## ##   #  #   ## #####       ##    ##    ##    ##    #####   ######\n");
+								printf("\t\t\t\t\t\t##   ###  ######## ##   #  #   ## #####       ##    ##    ##    ##    #####   ######\n");
 								Sleep(300);
 								system("color 09");
-								printf("##    ##  ##    ## ##    ##    ## ##          ##    ##      ####      ##      ##  ##\n");
+								printf("\t\t\t\t\t\t##    ##  ##    ## ##    ##    ## ##          ##    ##      ####      ##      ##  ##\n");
 								Sleep(300);
-								printf("########  ##    ## ##          ## #######     ########       ##       ####### ##   ##\n");
+								printf("\t\t\t\t\t\t########  ##    ## ##          ## #######     ########       ##       ####### ##   ##\n");
 								Sleep(300);
 								system("color 03");
 								Sleep(900);
-								printf("\nDigite 1 e pressione enter para continuar...");
+								printf("\n\t\t\t\t\t\tDigite 1 e pressione enter para continuar...");
 								scanf("%d", &lixo);
 								fim2=1;
 								break;
@@ -689,22 +689,22 @@ void mapa2(char matriz2[30][30],int x2, int y2, char chave2, char porta2, char b
 							{
 									printf("\n\n");
 								system("color 05");
-								printf("########  ######## ###        ### #######     ######## ##          ## ####### ######\n");
+								printf("\t\t\t\t\t\t########  ######## ###        ### #######     ######## ##          ## ####### ######\n");
 								Sleep(300);
 								system("color 07");
-								printf("##        ##    ## ## #      # ## ##          ##    ##  ##        ##  ##      ##    ##\n");
+								printf("\t\t\t\t\t\t##        ##    ## ## #      # ## ##          ##    ##  ##        ##  ##      ##    ##\n");
 								Sleep(300);
 								system("color 08");
-								printf("##   ###  ######## ##   #  #   ## #####       ##    ##    ##    ##    #####   ######\n");
+								printf("\t\t\t\t\t\t##   ###  ######## ##   #  #   ## #####       ##    ##    ##    ##    #####   ######\n");
 								Sleep(300);
 								system("color 09");
-								printf("##    ##  ##    ## ##    ##    ## ##          ##    ##      ####      ##      ##  ##\n");
+								printf("\t\t\t\t\t\t##    ##  ##    ## ##    ##    ## ##          ##    ##      ####      ##      ##  ##\n");
 								Sleep(300);
-								printf("########  ##    ## ##          ## #######     ########       ##       ####### ##   ##\n");
+								printf("\t\t\t\t\t\t########  ##    ## ##          ## #######     ########       ##       ####### ##   ##\n");
 								Sleep(300);
 								system("color 03");
 								Sleep(900);
-								printf("\nDigite 1 e pressione enter para continuar...");
+								printf("\n\t\t\t\t\t\tDigite 1 e pressione enter para continuar...");
 								scanf("%d", &lixo);
 								fim2=1;
 								break;
@@ -715,7 +715,7 @@ void mapa2(char matriz2[30][30],int x2, int y2, char chave2, char porta2, char b
 						//verificar o dano do espinho			
 						if (matriz2[y2][x2] == espinho2) 
 						{
-							printf("Voce sofreu dano!\n");
+							printf("\t\t\t\t\t\tVoce sofreu dano!\n");
 							Sleep(900);
 							lifes--;
 							x2=15;
@@ -729,22 +729,22 @@ void mapa2(char matriz2[30][30],int x2, int y2, char chave2, char porta2, char b
 								{
 									printf("\n\n");
 								system("color 05");
-								printf("########  ######## ###        ### #######     ######## ##          ## ####### ######\n");
+								printf("\t\t\t\t\t\t########  ######## ###        ### #######     ######## ##          ## ####### ######\n");
 								Sleep(300);
 								system("color 07");
-								printf("##        ##    ## ## #      # ## ##          ##    ##  ##        ##  ##      ##    ##\n");
+								printf("\t\t\t\t\t\t##        ##    ## ## #      # ## ##          ##    ##  ##        ##  ##      ##    ##\n");
 								Sleep(300);
 								system("color 08");
-								printf("##   ###  ######## ##   #  #   ## #####       ##    ##    ##    ##    #####   ######\n");
+								printf("\t\t\t\t\t\t##   ###  ######## ##   #  #   ## #####       ##    ##    ##    ##    #####   ######\n");
 								Sleep(300);
 								system("color 09");
-								printf("##    ##  ##    ## ##    ##    ## ##          ##    ##      ####      ##      ##  ##\n");
+								printf("\t\t\t\t\t\t##    ##  ##    ## ##    ##    ## ##          ##    ##      ####      ##      ##  ##\n");
 								Sleep(300);
-								printf("########  ##    ## ##          ## #######     ########       ##       ####### ##   ##\n");
+								printf("\t\t\t\t\t\t########  ##    ## ##          ## #######     ########       ##       ####### ##   ##\n");
 								Sleep(300);
 								system("color 03");
 								Sleep(900);
-								printf("\nDigite 1 e pressione enter para continuar...");
+								printf("\n\t\t\t\t\t\tDigite 1 e pressione enter para continuar...");
 								scanf("%d", &lixo);
 								fim2=1;
 								break;
@@ -766,22 +766,22 @@ void mapa2(char matriz2[30][30],int x2, int y2, char chave2, char porta2, char b
 				{
 						printf("\n\n\n");					
 					    Sleep(20);
-					   printf("#######  ####### #######  ####### ######  ####### ###     ##  #######\n");
+					   printf("\t\t\t\t\t\t######  ####### #######  ####### ######  ####### ###     ##  #######\n");
 					    Sleep(20);
 						system("color 05");
-					    printf("##    ## ##   ## ##    ## ##   ## ##   ## ##      ## #    ##  ##\n");
+					    printf("\t\t\t\t\t\t##    ## ##   ## ##    ## ##   ## ##   ## ##      ## #    ##  ##\n");
 					    Sleep(20);
 						system("color 04");
-					    printf("##    ## ##   ## ##    ## ##   ## ######  ##      ##  #   ##  #######\n");
+					    printf("\t\t\t\t\t\t##    ## ##   ## ##    ## ##   ## ######  ##      ##  #   ##  #######\n");
 					    Sleep(20);
 						system("color 07");
-					    printf("######   ####### #######  ####### #    ## #####   ##   #  ##       ##\n");
+					    printf("\t\t\t\t\t\t######   ####### #######  ####### #    ## #####   ##   #  ##       ##\n");
 					    Sleep(20);
 						system("color 08");
-					    printf("##       ##   ## ## ##    ##   ## ##   ## ##      ##    # ##       ##\n");
+					    printf("\t\t\t\t\t\t##       ##   ## ## ##    ##   ## ##   ## ##      ##    # ##       ##\n");
 					    Sleep(20);
 						system("color 09");
-					   printf("##       ##   ## ##  ##   ##   ## ######  ####### ##     ###  #######\n");
+					   printf("\t\t\t\t\t\t##       ##   ## ##  ##   ##   ## ######  ####### ##     ###  #######\n");
 					    Sleep(20);
 						system("color 06");
 						Sleep(900);
@@ -1203,22 +1203,22 @@ void movimentacao3()
 								{
 									printf("\n\n");
 								system("color 05");
-								printf("########  ######## ###        ### #######     ######## ##          ## ####### ######\n");
+								printf("\t\t\t\t\t\t########  ######## ###        ### #######     ######## ##          ## ####### ######\n");
 								Sleep(300);
 								system("color 07");
-								printf("##        ##    ## ## #      # ## ##          ##    ##  ##        ##  ##      ##    ##\n");
+								printf("\t\t\t\t\t\t##        ##    ## ## #      # ## ##          ##    ##  ##        ##  ##      ##    ##\n");
 								Sleep(300);
 								system("color 08");
-								printf("##   ###  ######## ##   #  #   ## #####       ##    ##    ##    ##    #####   ######\n");
+								printf("\t\t\t\t\t\t##   ###  ######## ##   #  #   ## #####       ##    ##    ##    ##    #####   ######\n");
 								Sleep(300);
 								system("color 09");
-								printf("##    ##  ##    ## ##    ##    ## ##          ##    ##      ####      ##      ##  ##\n");
+								printf("\t\t\t\t\t\t##    ##  ##    ## ##    ##    ## ##          ##    ##      ####      ##      ##  ##\n");
 								Sleep(300);
-								printf("########  ##    ## ##          ## #######     ########       ##       ####### ##   ##\n");
+								printf("\t\t\t\t\t\t########  ##    ## ##          ## #######     ########       ##       ####### ##   ##\n");
 								Sleep(300);
 								system("color 03");
 								Sleep(900);
-								printf("\nDigite 1 e pressione enter para continuar...");
+								printf("\n\t\t\t\t\t\tDigite 1 e pressione enter para continuar...");
 								scanf("%d", &lixo);
 								fim3=1;
 								break;
@@ -1231,7 +1231,7 @@ void movimentacao3()
 							
 							if (matriz3[y3][x3] == espinho3) 
 							{
-								printf("Voce sofreu dano!\n");
+								printf("\t\t\t\t\t\tVoce sofreu dano!\n");
 								Sleep(900);
 								lifes--;
 								x3=15;
@@ -1249,22 +1249,22 @@ void movimentacao3()
 								{
 									printf("\n\n");
 								system("color 05");
-								printf("########  ######## ###        ### #######     ######## ##          ## ####### ######\n");
+								printf("\t\t\t\t\t\t########  ######## ###        ### #######     ######## ##          ## ####### ######\n");
 								Sleep(300);
 								system("color 07");
-								printf("##        ##    ## ## #      # ## ##          ##    ##  ##        ##  ##      ##    ##\n");
+								printf("\t\t\t\t\t\t##        ##    ## ## #      # ## ##          ##    ##  ##        ##  ##      ##    ##\n");
 								Sleep(300);
 								system("color 08");
-								printf("##   ###  ######## ##   #  #   ## #####       ##    ##    ##    ##    #####   ######\n");
+								printf("\t\t\t\t\t\t##   ###  ######## ##   #  #   ## #####       ##    ##    ##    ##    #####   ######\n");
 								Sleep(300);
 								system("color 09");
-								printf("##    ##  ##    ## ##    ##    ## ##          ##    ##      ####      ##      ##  ##\n");
+								printf("\t\t\t\t\t\t##    ##  ##    ## ##    ##    ## ##          ##    ##      ####      ##      ##  ##\n");
 								Sleep(300);
-								printf("########  ##    ## ##          ## #######     ########       ##       ####### ##   ##\n");
+								printf("\t\t\t\t\t\t########  ##    ## ##          ## #######     ########       ##       ####### ##   ##\n");
 								Sleep(300);
 								system("color 03");
 								Sleep(900);
-								printf("\nDigite 1 e pressione enter para continuar...");
+								printf("\n\t\t\t\t\t\tDigite 1 e pressione enter para continuar...");
 								scanf("%d", &lixo);
 								fim3=1;
 								break;
@@ -1300,22 +1300,22 @@ void movimentacao3()
 						{
 									printf("\n\n");
 								system("color 05");
-								printf("########  ######## ###        ### #######     ######## ##          ## ####### ######\n");
+								printf("\t\t\t\t\t\t########  ######## ###        ### #######     ######## ##          ## ####### ######\n");
 								Sleep(300);
 								system("color 07");
-								printf("##        ##    ## ## #      # ## ##          ##    ##  ##        ##  ##      ##    ##\n");
+								printf("\t\t\t\t\t\t##        ##    ## ## #      # ## ##          ##    ##  ##        ##  ##      ##    ##\n");
 								Sleep(300);
 								system("color 08");
-								printf("##   ###  ######## ##   #  #   ## #####       ##    ##    ##    ##    #####   ######\n");
+								printf("\t\t\t\t\t\t##   ###  ######## ##   #  #   ## #####       ##    ##    ##    ##    #####   ######\n");
 								Sleep(300);
 								system("color 09");
-								printf("##    ##  ##    ## ##    ##    ## ##          ##    ##      ####      ##      ##  ##\n");
+								printf("\t\t\t\t\t\t##    ##  ##    ## ##    ##    ## ##          ##    ##      ####      ##      ##  ##\n");
 								Sleep(300);
-								printf("########  ##    ## ##          ## #######     ########       ##       ####### ##   ##\n");
+								printf("\t\t\t\t\t\t########  ##    ## ##          ## #######     ########       ##       ####### ##   ##\n");
 								Sleep(300);
 								system("color 03");
 								Sleep(900);
-								printf("\nDigite 1 e pressione enter para continuar...");
+								printf("\n\t\t\t\t\t\tDigite 1 e pressione enter para continuar...");
 								scanf("%d", &lixo);
 								fim3=1;
 								break;
@@ -1328,7 +1328,7 @@ void movimentacao3()
 							
 							if (matriz3[y3][x3] == espinho3) 
 							{
-								printf("Voce sofreu dano!\n");
+								printf("\t\t\t\t\t\tVoce sofreu dano!\n");
 								Sleep(900);
 								lifes--;
 								x3=15;
@@ -1346,22 +1346,22 @@ void movimentacao3()
 								{
 									printf("\n\n");
 								system("color 05");
-								printf("########  ######## ###        ### #######     ######## ##          ## ####### ######\n");
+								printf("\t\t\t\t\t\t########  ######## ###        ### #######     ######## ##          ## ####### ######\n");
 								Sleep(300);
 								system("color 07");
-								printf("##        ##    ## ## #      # ## ##          ##    ##  ##        ##  ##      ##    ##\n");
+								printf("\t\t\t\t\t\t##        ##    ## ## #      # ## ##          ##    ##  ##        ##  ##      ##    ##\n");
 								Sleep(300);
 								system("color 08");
-								printf("##   ###  ######## ##   #  #   ## #####       ##    ##    ##    ##    #####   ######\n");
+								printf("\t\t\t\t\t\t##   ###  ######## ##   #  #   ## #####       ##    ##    ##    ##    #####   ######\n");
 								Sleep(300);
 								system("color 09");
-								printf("##    ##  ##    ## ##    ##    ## ##          ##    ##      ####      ##      ##  ##\n");
+								printf("\t\t\t\t\t\t##    ##  ##    ## ##    ##    ## ##          ##    ##      ####      ##      ##  ##\n");
 								Sleep(300);
-								printf("########  ##    ## ##          ## #######     ########       ##       ####### ##   ##\n");
+								printf("\t\t\t\t\t\t########  ##    ## ##          ## #######     ########       ##       ####### ##   ##\n");
 								Sleep(300);
 								system("color 03");
 								Sleep(900);
-								printf("\nDigite 1 e pressione enter para continuar...");
+								printf("\n\t\t\t\t\t\tDigite 1 e pressione enter para continuar...");
 								scanf("%d", &lixo);;
 								fim3=1;
 								} 
@@ -1397,22 +1397,22 @@ void movimentacao3()
 					system("color 05");
 									printf("\n\n");
 								system("color 05");
-								printf("########  ######## ###        ### #######     ######## ##          ## ####### ######\n");
+								printf("\t\t\t\t\t\t########  ######## ###        ### #######     ######## ##          ## ####### ######\n");
 								Sleep(300);
 								system("color 07");
-								printf("##        ##    ## ## #      # ## ##          ##    ##  ##        ##  ##      ##    ##\n");
+								printf("\t\t\t\t\t\t##        ##    ## ## #      # ## ##          ##    ##  ##        ##  ##      ##    ##\n");
 								Sleep(300);
 								system("color 08");
-								printf("##   ###  ######## ##   #  #   ## #####       ##    ##    ##    ##    #####   ######\n");
+								printf("\t\t\t\t\t\t##   ###  ######## ##   #  #   ## #####       ##    ##    ##    ##    #####   ######\n");
 								Sleep(300);
 								system("color 09");
-								printf("##    ##  ##    ## ##    ##    ## ##          ##    ##      ####      ##      ##  ##\n");
+								printf("\t\t\t\t\t\t##    ##  ##    ## ##    ##    ## ##          ##    ##      ####      ##      ##  ##\n");
 								Sleep(300);
-								printf("########  ##    ## ##          ## #######     ########       ##       ####### ##   ##\n");
+								printf("\t\t\t\t\t\t########  ##    ## ##          ## #######     ########       ##       ####### ##   ##\n");
 								Sleep(300);
 								system("color 03");
 								Sleep(900);
-								printf("\nDigite 1 e pressione enter para continuar...");
+								printf("\n\t\t\t\t\t\tDigite 1 e pressione enter para continuar...");
 								scanf("%d", &lixo);
 								fim3=1;
 						} 
@@ -1424,7 +1424,7 @@ void movimentacao3()
 							
 							if (matriz3[y3][x3] == espinho3) 
 							{
-								printf("Voce sofreu dano!\n");
+								printf("\t\t\t\t\t\tVoce sofreu dano!\n");
 								Sleep(900);
 								lifes--;
 								x3=15;
@@ -1442,22 +1442,22 @@ void movimentacao3()
 								{
 									printf("\n\n");
 								system("color 05");
-								printf("########  ######## ###        ### #######     ######## ##          ## ####### ######\n");
+								printf("\t\t\t\t\t\t########  ######## ###        ### #######     ######## ##          ## ####### ######\n");
 								Sleep(300);
 								system("color 07");
-								printf("##        ##    ## ## #      # ## ##          ##    ##  ##        ##  ##      ##    ##\n");
+								printf("\t\t\t\t\t\t##        ##    ## ## #      # ## ##          ##    ##  ##        ##  ##      ##    ##\n");
 								Sleep(300);
 								system("color 08");
-								printf("##   ###  ######## ##   #  #   ## #####       ##    ##    ##    ##    #####   ######\n");
+								printf("\t\t\t\t\t\t##   ###  ######## ##   #  #   ## #####       ##    ##    ##    ##    #####   ######\n");
 								Sleep(300);
 								system("color 09");
-								printf("##    ##  ##    ## ##    ##    ## ##          ##    ##      ####      ##      ##  ##\n");
+								printf("\t\t\t\t\t\t##    ##  ##    ## ##    ##    ## ##          ##    ##      ####      ##      ##  ##\n");
 								Sleep(300);
-								printf("########  ##    ## ##          ## #######     ########       ##       ####### ##   ##\n");
+								printf("\t\t\t\t\t\t########  ##    ## ##          ## #######     ########       ##       ####### ##   ##\n");
 								Sleep(300);
 								system("color 03");
 								Sleep(900);
-								printf("\nDigite 1 e pressione enter para continuar...");
+								printf("\n\t\t\t\t\t\tDigite 1 e pressione enter para continuar...");
 								scanf("%d", &lixo);
 								fim3=1;
 								} 
@@ -1491,22 +1491,22 @@ void movimentacao3()
 							{
 									printf("\n\n");
 								system("color 05");
-								printf("########  ######## ###        ### #######     ######## ##          ## ####### ######\n");
+								printf("\t\t\t\t\t\t########  ######## ###        ### #######     ######## ##          ## ####### ######\n");
 								Sleep(300);
 								system("color 07");
-								printf("##        ##    ## ## #      # ## ##          ##    ##  ##        ##  ##      ##    ##\n");
+								printf("\t\t\t\t\t\t##        ##    ## ## #      # ## ##          ##    ##  ##        ##  ##      ##    ##\n");
 								Sleep(300);
 								system("color 08");
-								printf("##   ###  ######## ##   #  #   ## #####       ##    ##    ##    ##    #####   ######\n");
+								printf("\t\t\t\t\t\t##   ###  ######## ##   #  #   ## #####       ##    ##    ##    ##    #####   ######\n");
 								Sleep(300);
 								system("color 09");
-								printf("##    ##  ##    ## ##    ##    ## ##          ##    ##      ####      ##      ##  ##\n");
+								printf("\t\t\t\t\t\t##    ##  ##    ## ##    ##    ## ##          ##    ##      ####      ##      ##  ##\n");
 								Sleep(300);
-								printf("########  ##    ## ##          ## #######     ########       ##       ####### ##   ##\n");
+								printf("\t\t\t\t\t\t########  ##    ## ##          ## #######     ########       ##       ####### ##   ##\n");
 								Sleep(300);
 								system("color 03");
 								Sleep(900);
-								printf("\nDigite 1 e pressione enter para continuar...");
+								printf("\n\t\t\t\t\t\tDigite 1 e pressione enter para continuar...");
 								scanf("%d", &lixo);
 								fim3=1;
 							} 
@@ -1518,7 +1518,7 @@ void movimentacao3()
 							
 							if (matriz3[y3][x3] == espinho3) 
 							{
-								printf("Voce sofreu dano!\n");
+								printf("\t\t\t\t\t\tVoce sofreu dano!\n");
 								Sleep(900);
 								lifes--;
 								x3=15;
@@ -1537,22 +1537,22 @@ void movimentacao3()
 								{
 									printf("\n\n");
 								system("color 05");
-								printf("########  ######## ###        ### #######     ######## ##          ## ####### ######\n");
+								printf("\t\t\t\t\t\t########  ######## ###        ### #######     ######## ##          ## ####### ######\n");
 								Sleep(300);
 								system("color 07");
-								printf("##        ##    ## ## #      # ## ##          ##    ##  ##        ##  ##      ##    ##\n");
+								printf("\t\t\t\t\t\t##        ##    ## ## #      # ## ##          ##    ##  ##        ##  ##      ##    ##\n");
 								Sleep(300);
 								system("color 08");
-								printf("##   ###  ######## ##   #  #   ## #####       ##    ##    ##    ##    #####   ######\n");
+								printf("\t\t\t\t\t\t##   ###  ######## ##   #  #   ## #####       ##    ##    ##    ##    #####   ######\n");
 								Sleep(300);
 								system("color 09");
-								printf("##    ##  ##    ## ##    ##    ## ##          ##    ##      ####      ##      ##  ##\n");
+								printf("\t\t\t\t\t\t##    ##  ##    ## ##    ##    ## ##          ##    ##      ####      ##      ##  ##\n");
 								Sleep(300);
-								printf("########  ##    ## ##          ## #######     ########       ##       ####### ##   ##\n");
+								printf("\t\t\t\t\t\t########  ##    ## ##          ## #######     ########       ##       ####### ##   ##\n");
 								Sleep(300);
 								system("color 03");
 								Sleep(900);
-								printf("\nDigite 1 e pressione enter para continuar...");
+								printf("\n\t\t\t\t\t\tDigite 1 e pressione enter para continuar...");
 								scanf("%d", &lixo);
 								fim3=1;
 								} 
@@ -1581,36 +1581,36 @@ void movimentacao3()
 					if (x3==6 && y3==35 && teletransporte=='<')
 					{
 						printf("\n\n\n");
-						printf("########  ######   ##     ######  #######  ######     #######  ###     ##  #######   ######   #######  #####   ########  ######\n");
+						printf("\t\t\t\t\t\t########  ######   ##     ######  #######  ######     #######  ###     ##  #######   ######   #######  #####   ########  ######\n");
 						Sleep(300);
 						system("color 01");
-						printf("   ##     ##       ##     ##        ##     ##   ##    ##   ##  ## #    ##  ##        ##   ##  ##   ##  ##   ##    ##     ##\n");
+						printf("\t\t\t\t\t\t   ##     ##       ##     ##        ##     ##   ##    ##   ##  ## #    ##  ##        ##   ##  ##   ##  ##   ##    ##     ##\n");
 						Sleep(300);
 						system("color 02");
-						printf("   ##     #####    ##     #####     ##     ######     #######  ##  #   ##  #######   ######   ##   ##  ######     ##     #####\n");
+						printf("\t\t\t\t\t\t   ##     #####    ##     #####     ##     ######     #######  ##  #   ##  #######   ######   ##   ##  ######     ##     #####\n");
 						Sleep(300);
 						system("color 03");
-						printf("   ##     ##       ##     ##        ##     ##  ##     ##   ##  ##   #  ##       ##   ##       ##   ##  ##         ##     ##\n");
+						printf("\t\t\t\t\t\t   ##     ##       ##     ##        ##     ##  ##     ##   ##  ##   #  ##       ##   ##       ##   ##  ##         ##     ##\n");
 						Sleep(300);
 						system("color 04");
-						printf("   ##     ######   #####  ######    ##     ##   ##    ##   ##  ##    ###   #######   ##       #######  ##         ##     ######\n");
+						printf("\t\t\t\t\t\t   ##     ######   #####  ######    ##     ##   ##    ##   ##  ##    ###   #######   ##       #######  ##         ##     ######\n");
 						Sleep(300);
 						system("color 05");
 						
 						 printf("\n\n\n");  
-						printf("    #######  ########  ##  ##       ##  #######  ######    #######\n");
+						printf("\t\t\t\t\t\t    #######  ########  ##  ##       ##  #######  ######    #######\n");
 						Sleep(300);
 						system("color 06");
-						printf("    ##   ##     ##     ##   ##     ##   ##   ##  ##    ##  ##   ##\n");
+						printf("\t\t\t\t\t\t    ##   ##     ##     ##   ##     ##   ##   ##  ##    ##  ##   ##\n");
 						Sleep(300);
 						system("color 08");
-						printf("    #######     ##     ##    ##   ##    #######  ##    ##  ##   ##\n");
+						printf("\t\t\t\t\t\t    #######     ##     ##    ##   ##    #######  ##    ##  ##   ##\n");
 						Sleep(300);
 						system("color 09");
-						printf("    ##   ##     ##     ##     ## ##     ##   ##  ##    ##  ##   ##\n");
+						printf("\t\t\t\t\t\t    ##   ##     ##     ##     ## ##     ##   ##  ##    ##  ##   ##\n");
 						Sleep(300);
 						system("color 0A");
-						printf("    ##   ##     ##     ##      ###      ##   ##  ######    #######\n");
+						printf("\t\t\t\t\t\t    ##   ##     ##     ##      ###      ##   ##  ######    #######\n");
 						Sleep(300);
 						system("color 07");
 
@@ -1620,41 +1620,7 @@ void movimentacao3()
 					
 					if (x3==43 && y3==49 && teletransporte=='<')
 					{
-						printf("\n\n\n");
-						printf("########  ######   ##     ######  #######  ######     #######  ###     ##  #######   ######   #######  #####   ########  ######\n");
-						Sleep(300);
-						system("color 01");
-						printf("   ##     ##       ##     ##        ##     ##   ##    ##   ##  ## #    ##  ##        ##   ##  ##   ##  ##   ##    ##     ##\n");
-						Sleep(300);
-						system("color 02");
-						printf("   ##     #####    ##     #####     ##     ######     #######  ##  #   ##  #######   ######   ##   ##  ######     ##     #####\n");
-						Sleep(300);
-						system("color 03");
-						printf("   ##     ##       ##     ##        ##     ##  ##     ##   ##  ##   #  ##       ##   ##       ##   ##  ##         ##     ##\n");
-						Sleep(300);
-						system("color 04");
-						printf("   ##     ######   #####  ######    ##     ##   ##    ##   ##  ##    ###   #######   ##       #######  ##         ##     ######\n");
-						Sleep(300);
-						system("color 05");
-						 printf("\n\n\n");  
-						printf("    #######  ########  ##  ##       ##  #######  ######    #######\n");
-						Sleep(300);
-						system("color 06");
-						printf("    ##   ##     ##     ##   ##     ##   ##   ##  ##    ##  ##   ##\n");
-						Sleep(300);
-						system("color 08");
-						printf("    #######     ##     ##    ##   ##    #######  ##    ##  ##   ##\n");
-						Sleep(300);
-						system("color 09");
-						printf("    ##   ##     ##     ##     ## ##     ##   ##  ##    ##  ##   ##\n");
-						Sleep(300);
-						system("color 0A");
-						printf("    ##   ##     ##     ##      ###      ##   ##  ######    #######\n");
-						Sleep(300);
-						system("color 07");
-
-						 x3 = 6;
-                         y3 = 35;
+				
 					}
 			default:
 				break;
@@ -1895,7 +1861,7 @@ int main()
 			system("cls");
         	system("color 0D");
         	
-			char abrir[] = "\n\n\t\t\t\t\t\t . . . . . . ABRINDO JOGO . . . . . . ";
+			char abrir[] = "\n\n\t\t\t\t\t\t   . . . . . . ABRINDO JOGO . . . . . . ";
 			
 			int a;
 		    for (a = 0; abrir[a] != '\0'; a++) {
@@ -1917,7 +1883,7 @@ int main()
 			system("cls");
         	system("color 07");
         	
-			char tutorial[] = "\n\n\t\t\t\t\t\t . . . . . . INICIANDO TUTORIAL . . . . . . ";
+			char tutorial[] = "\n\n\t\t\t\t\t\t   . . . . . . INICIANDO TUTORIAL . . . . . . ";
 			
 			int x;
 		    for (x = 0; tutorial[x] != '\0'; x++) {
@@ -1981,7 +1947,7 @@ int main()
 
 			system("cls");
         	system("color 04");
-			char encerrando[] = "\n\n\t\t\t\t\t\t . . . . . . ENCERRANDO JOGO . . . . . . ";
+			char encerrando[] = "\n\n\t\t\t\t\t\t  . . . . . . ENCERRANDO JOGO . . . . . . ";
 			
 			int e;
 		    for (e = 0; encerrando[e] != '\0'; e++) {
@@ -2015,23 +1981,23 @@ int main()
 		
 		    
 			//CREDITOS FINAIS 
-			char frase2[]= "\t\t\t\t\t    |=================== CREDITOS ====================|\n"
-			 "\t\t\t\t\t    |                                                 |\n"
-		     "\t\t\t\t\t    |             ------- ALUNOS -------              |\n"
-		     "\t\t\t\t\t    |                                                 |\n"
-		     "\t\t\t\t\t    | ELISSANDRA NASCIMENTO - 23300025                |\n"
-		     "\t\t\t\t\t    | RENAN ABREU DE ALMEIDA - 23300041               |\n"
-		     "\t\t\t\t\t    | LUIZ EDUARDO NETO DOS SANTOS - 23300032         |\n"
-		     "\t\t\t\t\t    |                                                 |\n"
-		     "\t\t\t\t\t    |           ------- PROFESSOR -------             |\n"
-		     "\t\t\t\t\t    |                                                 |\n"
-		     "\t\t\t\t\t    | PEDRO HENRIQUE SALES GIROTTO                    |\n"
-		     "\t\t\t\t\t    |                                                 |\n"
-		     "\t\t\t\t\t    |          ------- INSTITUICAO -------            |\n"
-		     "\t\t\t\t\t    |                                                 |\n"
-		     "\t\t\t\t\t    | CENTRO UNIVERSITARIO DO ESTADO DO PARA - CESUPA |\n"
-		     "\t\t\t\t\t    |                                                 |\n"
-		     "\t\t\t\t\t    |=================================================|\n";
+			char frase2[]= "\t\t\t\t\t     |=================== CREDITOS ====================|\n"
+			 "\t\t\t\t\t     |                                                 |\n"
+		     "\t\t\t\t\t     |             ------- ALUNOS -------              |\n"
+		     "\t\t\t\t\t     |                                                 |\n"
+		     "\t\t\t\t\t     | ELISSANDRA NASCIMENTO - 23300025                |\n"
+		     "\t\t\t\t\t     | RENAN ABREU DE ALMEIDA - 23300041               |\n"
+		     "\t\t\t\t\t     | LUIZ EDUARDO NETO DOS SANTOS - 23300032         |\n"
+		     "\t\t\t\t\t     |                                                 |\n"
+		     "\t\t\t\t\t     |           ------- PROFESSOR -------             |\n"
+		     "\t\t\t\t\t     |                                                 |\n"
+		     "\t\t\t\t\t     | PEDRO HENRIQUE SALES GIROTTO                    |\n"
+		     "\t\t\t\t\t     |                                                 |\n"
+		     "\t\t\t\t\t     |          ------- INSTITUICAO -------            |\n"
+		     "\t\t\t\t\t     |                                                 |\n"
+		     "\t\t\t\t\t     | CENTRO UNIVERSITARIO DO ESTADO DO PARA - CESUPA |\n"
+		     "\t\t\t\t\t     |                                                 |\n"
+		     "\t\t\t\t\t     |=================================================|\n";
 		    
 			
 			// Exibição do texto dos creditos
